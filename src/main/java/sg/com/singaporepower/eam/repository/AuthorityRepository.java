@@ -1,0 +1,11 @@
+package sg.com.singaporepower.eam.repository;
+
+import sg.com.singaporepower.eam.domain.Authority;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * Spring Data JPA repository for the Authority entity.
+ */
+public interface AuthorityRepository extends JpaRepository<Authority, String> {
+}
